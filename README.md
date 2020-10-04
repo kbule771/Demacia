@@ -4,7 +4,7 @@ Ver2로 프로젝트 진행중...
 
 아래는 Ver1 디자인과 구조
 
-![1](C:\Users\multicampus\Desktop\Demacia\dema\1.PNG)
+![1](\dema\1.PNG)
 
 ![1](https://user-images.githubusercontent.com/60081286/92345351-038da880-f104-11ea-8923-309c48748a29.png)
 ![2](https://user-images.githubusercontent.com/60081286/92345360-07b9c600-f104-11ea-89cf-50f67e71127c.png)
@@ -17,24 +17,24 @@ Ver2로 프로젝트 진행중...
 ![9](https://user-images.githubusercontent.com/60081286/92345375-0d171080-f104-11ea-9050-a4fcacc021bb.png)
 ![backend 구조](https://user-images.githubusercontent.com/60081286/92345376-0dafa700-f104-11ea-883c-863ac2156185.PNG)
 
-![2](C:\Users\multicampus\Desktop\Demacia\dema\2.PNG)
+![2](\dema\2.PNG)
 
-![3](C:\Users\multicampus\Desktop\Demacia\dema\3.PNG)
+![3](\dema\3.PNG)
 
 ![4](C:\Users\multicampus\Desktop\Demacia\dema\4.PNG)
 
-![5](C:\Users\multicampus\Desktop\Demacia\dema\5.PNG)
+![5](\dema\5.PNG)
 
-![6](C:\Users\multicampus\Desktop\Demacia\dema\6.PNG)
+![6](\dema\6.PNG)
 
-![KakaoTalk_20201002_190857732](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201002_190857732.png)
+![KakaoTalk_20201002_190857732](\dema\KakaoTalk_20201002_190857732.png)
 
-![KakaoTalk_20201003_211709029](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201003_211709029.png)
+![KakaoTalk_20201003_211709029](\dema\KakaoTalk_20201003_211709029.png)
 
-![KakaoTalk_20201003_211726415](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201003_211726415.png)
+![KakaoTalk_20201003_211726415](\dema\KakaoTalk_20201003_211726415.png)
 
-![KakaoTalk_20201003_211738394](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201003_211738394.png)
+![KakaoTalk_20201003_211738394](\dema\KakaoTalk_20201003_211738394.png)
 
-![KakaoTalk_20201003_211747006 (1)](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201003_211747006 (1).png)
+![KakaoTalk_20201003_211747006 (1)](\dema\KakaoTalk_20201003_211747006 (1).png)
 
-![KakaoTalk_20201003_211747006](C:\Users\multicampus\Desktop\Demacia\dema\KakaoTalk_20201003_211747006.png)
+![KakaoTalk_20201003_211747006](\dema\KakaoTalk_20201003_211747006.png)
