@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.user.UserDao">
+
+    <!-- 정보 조회 -->
+    <select id="userSearch" resultType="User">
+        select * from user where userNo = #{userNo}
+    </select>
+
+    <!-- 로그인 -->
+    <select id="login" resultType="User">
+        select
+            *
+        from
+            user
+        where
+            userEmail = #{userEmail}
+            and userPw = #{userPw}
+    </select>
+
+    <!-- 전체 유저수 조회 -->
+    <select id="userTotal" resultType="int">
+        select count(*) from user
+    </select>
+
+    <!-- 회원가입 -->
+    <insert id="userInsert">
+        insert into user(userEmail, userPw, userNickname, userSolRankNum,userSolTierStr,userSolRankStr,userMileage) VALUES
+        (#{userEmail},#{userPw}, #{userNickname}, 1, "BRONZE", "IV", 100)
+    </insert>
+
+    <!-- 회원 정보 삭제 -->
+    <delete id="userDelete">
+        delete from user
+        where userNo = #{userNo}
+    </delete>
+
+    <!-- 회원 정보 수정 -->
+    <!-- email 수정 불가! nickname은 중복체크필요-->
+    <update id="userUpdate">
+        update
+            user
+        set userPw=#{userPw}, userNickname=#{userNickname}, userImage=#{userImage}, accessToken=#{accessToken}, providerName=#{providerName}
+        where
+           userEmail = #{userEmail}
+    </update>
+
+    <!-- 이메일 조회 -->
+    <select id="userFindEmail">
+        select userEmail from user
+        where userNickname=#{userNickname}
+    </select>
+
+    <!-- 비밀번호 조회 -->
+    <select id="userFindPW">
+        select userPw from user
+        where userEmail = #{userEmail}, userNickname = #{userNickname}
+    </select>
+
+    <!-- 중복체크 -->
+    <!-- 닉네임 조회 -->
+    <select id="userByNickname" resultType="int">
+        select count(*) from user where userNickname=#{userNickname}
+    </select>
+
+    <!-- 이메일 조회 -->
+    <select id="userByEmail" resultType="int">
+        select count(*) from user where userEmail=#{userEmail}
+    </select>
+
+    <!-- 소셜 이메일 조회 -->
+    <select id="socialuserByEmail" resultType="User">
+        select * from user where userEmail=#{userEmail}
+    </select>
+
+    <!-- 소셜 회원가입 -->
+    <insert id="socialuserInsert">
+        insert into user(userEmail, userPw, userNickname, userImage, userSolRankNum,userSolTierStr,userSolRankStr,accesstoken,providerName,userMileage) VALUES
+        (#{userEmail}, #{userPw}, #{userNickname},#{userImage},1,"BRONZE","IV",#{accessToken},#{providerName},100)
+    </insert>
+
+    <!-- 적중률 -->
+    <select id="userHitRate" resultType="double">
+       SELECT (SELECT COUNT(*) FROM vote a JOIN post b ON a.postNo = b.postNo WHERE a.userno=#{userNO} AND (a.value = b.isFinished))/(SELECT COUNT(*) FROM vote a JOIN post b ON a.postNo = b.postNo WHERE a.userno=#{userNo})
+    </select>
+</mapper>

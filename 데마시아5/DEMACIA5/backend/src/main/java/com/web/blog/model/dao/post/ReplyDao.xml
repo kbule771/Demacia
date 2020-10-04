@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.post.ReplyDao">
+
+    <!-- 해당 게시글의 댓글 조회(옵션에 따라서)-->
+    <select id="replyList" resultType="Reply">
+        SELECT *
+        FROM reply 
+        WHERE postNo = #{postNo} and replyOpt = ${replyOpt}
+    </select>
+
+    <!-- 해당 게시글의 댓글 조회(옵션에 따라서)-->
+    <select id="replyUserList" resultType="ReplyUser">
+        SELECT replyno, postno, A.userno, usernickname, userimage, content, replydate, replyopt
+        FROM reply A JOIN user B ON A.userno = B.userno
+        WHERE postNo = #{postNo}
+		AND replyOpt = ${replyOpt}
+    </select>
+
+    <!-- 해당 게시글의 전체 댓글 조회-->
+    <select id="replyAllList" resultType="Reply">
+        SELECT *
+        FROM reply 
+        WHERE postNo = #{postNo}
+    </select>
+
+    <!-- 해당 게시글의 전체 댓글 조회 (유저 이미지, 닉네임) -->
+    <select id="replyUserAllList" resultType="ReplyUser">
+        SELECT replyno, postno, A.userno, usernickname, userimage, content, replydate, replyopt, userSolTierStr, userSolRankStr, userGameTierStr, userGameRankStr
+        FROM reply A JOIN user B ON A.userno = B.userno
+        WHERE postNo = #{postNo} ORDER BY replydate DESC
+    </select>
+
+    <!--  댓글 작성 -->
+    <insert id="replyInsert">
+        insert into reply(postno,userno,content, replyOpt)
+        values (#{postNo},#{userNo},#{content}, #{replyOpt})
+    </insert>
+
+    <!-- 댓글 수정(댓글 내용)-->
+    <update id="replyUpdate">
+        update reply 
+        set content = #{content}
+        where replyNo = #{replyNo}
+    </update>
+
+    <!-- 댓글 삭제 -->
+    <delete id="replyDelete">
+        delete from reply
+        where replyNo = #{replyNo}
+    </delete>
+
+</mapper>

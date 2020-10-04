@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.web.blog.model.dao.post.LikesDao">
+
+     <!-- 해당 게시글의 like 개수 조회 -->
+    <select id ="likesCount" resultType = "int">
+        select count(*) from likes
+        where postNo = #{postNo}
+    </select>
+
+
+    <!-- like 버튼 클릭 (비활성화 -> 활성화) -->
+    <insert id ="likesInsert">
+        INSERT INTO likes(userNo, postNo)
+	    VALUES (#{userNo},#{postNo});
+    </insert>
+
+    <!-- like 버튼 클릭 (활성화 -> 비활성화) -->
+    <delete id ="likesDelete" >
+        delete from likes
+        where userNo = #{userNo} and postNo = #{postNo}
+    </delete>
+
+     <!-- 해당 게시글에 해당 유저의 like 상태 조회 -->
+    <select id ="likesStatus" resultType = "int">
+        select count(*) from likes
+        where userNo = #{userNo} and postNo = #{postNo}
+    </select>
+   
+</mapper>

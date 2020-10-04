@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.vote.VoteDao">
+
+    <!-- 투표 하기-->
+    <insert id="voteInsert">
+        insert into vote(postNo,userNo,value,userGameRankNum,userSolRankNum) VALUES
+        (#{postNo}, #{userNo}, #{value},#{userGameRankNum},#{userSolRankNum})
+    </insert>
+
+    <!-- 투표 여부  -->
+    <select id="voteStatus" resultType="Vote">
+        select * from vote 
+        where postNo = #{postNo} and userNo=#{userNo}
+    </select>
+
+    <!-- 특정 회원의 투표 이력  -->
+    <select id="userVote" resultType="Vote">
+        select * from vote 
+        where userNo=#{userNo}
+    </select>
+
+    <!-- 투표 수정 -->
+    <update id = "voteUpdate">
+        update
+            vote
+        set value=#{camp}
+        where
+          postNo = #{postNo} and userNo = #{userNo}
+    </update>
+
+    <!-- 투표 취소 -->
+    <delete id="voteDelete">
+        delete from vote
+        where postNo = #{postNo} and userNo = #{userNo}
+    </delete>
+
+    <!-- 투표 집계 -->
+    <select id="voteCount" resultType="Vote">
+        select * from vote where postNo = #{postNo} and value = #{camp}
+    </select>
+
+</mapper>

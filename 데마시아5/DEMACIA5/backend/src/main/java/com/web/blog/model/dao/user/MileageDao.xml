@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.user.MileageDao">
+
+    <!-- 사용자 마일리지 조회-->
+    <select id="mileageSearch" resultType="int">
+        SELECT userMileage
+        FROM user 
+        WHERE userNo = #{userNo}
+    </select>
+
+    <!-- 사용자 마일리지 순위 조회-->
+    <select id="mileageRank" resultType="Integer">
+        SELECT userNo FROM user ORDER BY userMileage DESC
+        <!-- select mileageRank
+        from(SELECT userno,userMileage,@rownum:=@rownum+1 mileageRank
+        FROM user
+        WHERE (@rownum:=0)=0
+        ORDER BY usermileage DESC) Rank
+        where Rank.userNo = #{userNo}; -->
+    </select>
+
+    <!-- 마일리지 수정(맞춘사람)-->
+    <update id = "mileageAdd">
+        UPDATE user 
+        SET userMileage = userMileage + #{mileage}
+        WHERE userno IN 
+        (SELECT userno
+        FROM vote
+        WHERE postno = #{postNo} AND VALUE = #{value});
+    </update>
+
+    <!-- 마일리지 수정(틀린사람)-->
+    <update id = "mileageSub">
+        UPDATE user 
+        SET userMileage = GREATEST(userMileage - #{mileage}, 0)
+        WHERE userno IN 
+        (SELECT userno
+        FROM vote
+        WHERE postno = #{postNo} AND VALUE = #{value});
+    </update>
+
+    <!-- 마일리지 차감(포스트 작성시)-->
+    <update id = "postMileage">
+        UPDATE user 
+        SET userMileage = userMileage - #{mileage}
+        WHERE userNo = #{userNo};
+    </update>
+
+    <!-- post 갱신 종료 표시 -->
+    <update id = "postFinished">
+        update post
+        set isFinished = #{isFinished}
+        where postNo = #{postNo}
+    </update>
+
+    <!-- 게시글 mileage 조회-->
+    <select id="searchMileage" resultType="int">
+        SELECT mileage
+        FROM post 
+        WHERE postNo = #{postNo}
+    </select>
+
+    <!-- 유저의 mileage 조회-->
+    <select id="searchUserMileage" resultType="int">
+        SELECT userMileage
+        FROM user 
+        WHERE userNo = #{userNo}
+    </select>
+
+
+    <!--user의 solrank 변경-->
+    <update id = "updateSolRank">
+        UPDATE user
+        SET userSolTierStr = #{userSolTierStr}, userSolRankStr = #{userSolRankStr}
+        WHERE userNo = #{userNo};
+    </update>
+
+    <!-- user의 sol rank num 변경-->
+    <update id = "updateSolRankNum">
+        UPDATE user
+        SET userSolRankNum = #{userSolRankNum}
+        WHERE userNo = #{userNo};
+    </update>
+
+</mapper>

@@ -1,0 +1,18 @@
+[
+    {"ENTJ" : "['Amumu', 'Chogath', 'Galio', 'Volibear', 'Mordekaiser', 'Zac', 'Gangplank']"},
+    {"INFP": "['Shen', 'Malphite', 'Sion', 'Maokai', 'Nasus', 'Ornn', 'Poppy', 'Singed', 'TahmKench', 'Urgot', 'Sett', 'DrMundo' ]"},
+    {"INTP": "['Darius', 'Gnar', 'MonkeyKing', 'Garen', 'Olaf', 'Renekton', 'Warwick', 'Yorick',  'Illaoi', 'Kled', 'Kennen']"},
+    {"ENFJ": "['JarvanIV', 'Hecarim', 'Skarner', 'Trundle', 'Shyvana', 'RekSai', 'Rammus', 'Nunu', 'Sejuani', 'Gragas']"},
+    {"ISFJ": "['Syndra', 'Veigar', 'Zoe', 'Velkoz', 'Viktor', 'Xerath', 'Ziggs', 'Azir', 'Malzahar']"},
+    {"ISTP": "['Anivia', 'Heimerdinger', 'AurelionSol', 'Cassiopeia', 'Karthus', 'TwistedFate',]"},
+    {"ESFJ": "['Annie',  'Brand', 'Karma', 'Lux', 'Morgana', 'Neeko', 'Orianna',  'Taliyah', 'Zyra']"},
+    {"ESTJ": "['Aphelios', 'Caitlyn', 'Draven', 'Jinx', 'Kaisa', 'Kalista', 'Kindred', 'Lucian', 'MissFortune', 'Sivir', 'Xayah']"},
+    {"ISFP": "['Aatrox', 'Camille', 'Fiora', 'Irelia', 'Jax', 'LeeSin', 'Pantheon', 'Riven', 'Tryndamere', 'Vi', 'XinZhao', 'Yasuo', 'Yone']"},
+    {"ESFP": "['Bard', 'Ivern', 'Janna', 'Lulu', 'Nami', 'Sona', 'Soraka', 'Yuumi', 'Zilean']"},
+    {"INTJ": "['Akali', 'Fizz', 'Nocturne', 'Qiyana', 'Ahri', 'Jayce', 'Kassadin', 'Katarina', 'Diana', 'Leblanc', 'Talon', 'Zed', 'Pyke']"},
+    {"ENFP": "['Khazix', 'Shaco', 'Evelynn', 'Ekko', 'Nidalee', 'Rengar', 'Udyr', 'Kayn', 'MasterYi', 'Graves']"},
+    {"ISTJ": "['Quinn', 'Teemo', 'Tristana', 'Twitch', 'Vayne']"},
+    {"ENTP": "['Ezreal', 'Jhin', 'KogMaw', 'Varus', 'Kayle', 'Ashe', 'Senna', 'Corki']"},
+    {"INFJ": "['Elise', 'Swain', 'Fiddlesticks', 'Lissandra', 'Vladimir', 'Ryze', 'Sylas', 'Lillia', 'Rumble']"},
+    {"ESTP": "['Taric', 'Thresh', 'Blitzcrank', 'Rakan', 'Nautilus', 'Alistar', 'Leona', 'Braum']"}
+]

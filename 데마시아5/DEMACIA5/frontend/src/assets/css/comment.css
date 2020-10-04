@@ -1,0 +1,151 @@
+.CommentWriter {
+  margin: 12px 0 29px;
+  padding: 16px 10px 10px 18px;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.CommentWriter .comment_inbox {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.CommentWriter .comment_inbox_name {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: left;
+}
+
+.CommentWriter .comment_inbox_text {
+  display: block;
+  width: 100%;
+  min-height: 17px;
+  padding-right: 1px;
+  border: 0;
+  font-size: 13px;
+  resize: none;
+  box-sizing: border-box;
+  background: transparent;
+  color: gray;
+  outline: 0;
+}
+
+.CommentWriter .register_box {
+  text-align: right;
+}
+
+.CommentWriter .register_box .button {
+  display: inline-block;
+  min-width: 46px;
+  height: 34px;
+  line-height: 36px;
+  font-size: 13px;
+  color: gray;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.comment_list .CommentItem {
+  position: relative;
+  border-top: 1px solid darkgray;
+  text-align: left;
+}
+
+.comment_list .comment_area {
+  position: relative;
+  padding: 12px 23px 10px 0;
+  text-align: left;
+}
+
+.comment_list .comment_thumb {
+  border-radius: 50%;
+  vertical-align: top;
+  text-align: left;
+}
+
+.comment_list .comment_box {
+  padding-left: 4px;
+}
+
+.comment_list .comment_nick_box {
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+.comment_list .comment_nick_box .comment_nick_info {
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  vertical-align: top;
+  font-weight: 700;
+  text-align: left;
+}
+
+.comment_list .comment_text_box {
+  position: relative;
+  font-size: 13px;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.comment_list .comment_text_box .comment_text_view {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.comment_list .comment_text_box .text_comment {
+  line-height: 17px;
+  word-break: break-all;
+  word-wrap: break-word;
+  vertical-align: top;
+  text-align: left;
+}
+
+.comment_list .comment_info_box {
+  margin-top: 7px;
+  font-size: 12px;
+  color: gray;
+  text-align: left;
+}
+
+.comment_list .comment_info_box .comment_info_date {
+  margin-right: 8px;
+  text-align: left;
+}
+
+#reply1 {
+  float: left;
+  overflow: scroll;
+  height: 400px;
+  max-height: 400px;
+}
+
+#reply2 {
+  float: right;
+  overflow: scroll;
+  height: 400px;
+  max-height: 600px;
+}
+
+#reply1 .text_comment {
+  color: blue;
+}
+
+#reply2 .text_comment {
+  color: red;
+}

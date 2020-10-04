@@ -1,0 +1,2552 @@
+[
+	{
+		"model": "demacia.champion",
+		"pk": "266",
+		"fields": {
+			"chamkey": "266",
+			"chamname": "Aatrox",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[517, 122, 350, 35]",
+			"lane": "['top', 'mid']",
+			"mbti": "ISFP",
+			"winning_rate": "0.4878048780487805",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Aatrox_1.jpg",
+			"korname": "아트록스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "103",
+		"fields": {
+			"chamkey": "103",
+			"chamname": "Ahri",
+			"chamtags": "['Mage', 'Assassin']",
+			"dictionary": "[80, 104, 777, 51]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.46",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Ahri_1.jpg",
+			"korname": "아리"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "84",
+		"fields": {
+			"chamkey": "84",
+			"chamname": "Akali",
+			"chamtags": "['Assassin']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['top', 'mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.4967866323907455",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Akali_1.jpg",
+			"korname": "아칼리"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "12",
+		"fields": {
+			"chamkey": "12",
+			"chamname": "Alistar",
+			"chamtags": "['Tank', 'Support']",
+			"dictionary": "[876, 30, 350, 236]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.3333333333333333",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Alistar_1.jpg",
+			"korname": "알리스타"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "32",
+		"fields": {
+			"chamkey": "32",
+			"chamname": "Amumu",
+			"chamtags": "['Tank', 'Mage']",
+			"dictionary": "[51, 876, 142, 104]",
+			"lane": "['jungle']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.7272727272727273",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Amumu_1.jpg",
+			"korname": "아무무"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "34",
+		"fields": {
+			"chamkey": "34",
+			"chamname": "Anivia",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[76, 51, 126, 9]",
+			"lane": "['mid']",
+			"mbti": "ISTP",
+			"winning_rate": "0.35714285714285715",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/Anivia_1.jpg",
+			"korname": "애니비아"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "1",
+		"fields": {
+			"chamkey": "1",
+			"chamname": "Annie",
+			"chamtags": "['Mage']",
+			"dictionary": "[30, 74, 133, 412]",
+			"lane": "['mid', 'support']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.4375",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Annie_1.jpg",
+			"korname": "애니"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "523",
+		"fields": {
+			"chamkey": "523",
+			"chamname": "Aphelios",
+			"chamtags": "['Marksman']",
+			"dictionary": "[76, 429, 81, 104]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.45897435897435895",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Aphelios_1.jpg",
+			"korname": "아펠리오스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "22",
+		"fields": {
+			"chamkey": "22",
+			"chamname": "Ashe",
+			"chamtags": "['Marksman', 'Support']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.504406580493537",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Ashe_1.jpg",
+			"korname": "애쉬"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "136",
+		"fields": {
+			"chamkey": "136",
+			"chamname": "AurelionSol",
+			"chamtags": "['Mage']",
+			"dictionary": "[236, 777, 117, 58]",
+			"lane": "['mid']",
+			"mbti": "ISTP",
+			"winning_rate": "0.4444444444444444",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/AurelionSol_1.jpg",
+			"korname": "아우렐리온 솔"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "268",
+		"fields": {
+			"chamkey": "268",
+			"chamname": "Azir",
+			"chamtags": "['Mage', 'Marksman']",
+			"dictionary": "[76, 51, 104, 876]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.5573770491803278",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Azir_1.jpg",
+			"korname": "아지르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "432",
+		"fields": {
+			"chamkey": "432",
+			"chamname": "Bard",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.4963072378138848",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Bard_1.jpg",
+			"korname": "바드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "53",
+		"fields": {
+			"chamkey": "53",
+			"chamname": "Blitzcrank",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[51, 777, 76, 30]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.5056497175141242",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Blitzcrank_1.jpg",
+			"korname": "블리츠크랭크"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "63",
+		"fields": {
+			"chamkey": "63",
+			"chamname": "Brand",
+			"chamtags": "['Mage']",
+			"dictionary": "",
+			"lane": "['support', 'mid']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.0",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Brand_1.jpg",
+			"korname": "브랜드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "201",
+		"fields": {
+			"chamkey": "201",
+			"chamname": "Braum",
+			"chamtags": "['Support', 'Tank']",
+			"dictionary": "[875, 238, 122, 142]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.375",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Braum_1.jpg",
+			"korname": "브라움"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "51",
+		"fields": {
+			"chamkey": "51",
+			"chamname": "Caitlyn",
+			"chamtags": "['Marksman']",
+			"dictionary": "[76, 30, 80, 876]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.500383393580896",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Caitlyn_1.jpg",
+			"korname": "케이틀린"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "164",
+		"fields": {
+			"chamkey": "164",
+			"chamname": "Camille",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['top', 'mid']",
+			"mbti": "ISFP",
+			"winning_rate": "0.5123634272570443",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Camille_1.jpg",
+			"korname": "카밀"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "69",
+		"fields": {
+			"chamkey": "69",
+			"chamname": "Cassiopeia",
+			"chamtags": "['Mage']",
+			"dictionary": "[51, 76, 80, 777]",
+			"lane": "['mid', 'ad']",
+			"mbti": "ISTP",
+			"winning_rate": "0.5487364620938628",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/Cassiopeia_1.jpg",
+			"korname": "카시오페아"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "31",
+		"fields": {
+			"chamkey": "31",
+			"chamname": "Chogath",
+			"chamtags": "['Tank', 'Mage']",
+			"dictionary": "[105, 350, 17, 51]",
+			"lane": "['mid', 'top', 'jungle']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.5",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Chogath_1.jpg",
+			"korname": "초가스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "42",
+		"fields": {
+			"chamkey": "42",
+			"chamname": "Corki",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 876, 20, 157]",
+			"lane": "['mid', 'ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.6",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Corki_1.jpg",
+			"korname": "코르키"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "122",
+		"fields": {
+			"chamkey": "122",
+			"chamname": "Darius",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[51, 777, 238, 76]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.4706896551724138",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Darius_1.jpg",
+			"korname": "다리우스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "131",
+		"fields": {
+			"chamkey": "131",
+			"chamname": "Diana",
+			"chamtags": "['Fighter', 'Mage']",
+			"dictionary": "[62, 523, 64, 80]",
+			"lane": "['mid', 'top']",
+			"mbti": "INTJ",
+			"winning_rate": "0.32142857142857145",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Diana_1.jpg",
+			"korname": "다이애나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "119",
+		"fields": {
+			"chamkey": "119",
+			"chamname": "Draven",
+			"chamtags": "['Marksman']",
+			"dictionary": "[76, 51, 104, 777]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.5555555555555556",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Draven_1.jpg",
+			"korname": "드레이븐"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "36",
+		"fields": {
+			"chamkey": "36",
+			"chamname": "DrMundo",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[81, 67, 122, 236]",
+			"lane": "['top', 'jungle']",
+			"mbti": "INFP",
+			"winning_rate": "0.375",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/DrMundo_1.jpg",
+			"korname": "문도 박사"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "245",
+		"fields": {
+			"chamkey": "245",
+			"chamname": "Ekko",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['mid', 'jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.47761194029850745",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Ekko_1.jpg",
+			"korname": "에코"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "60",
+		"fields": {
+			"chamkey": "60",
+			"chamname": "Elise",
+			"chamtags": "['Mage', 'Fighter']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['jungle']",
+			"mbti": "INFJ",
+			"winning_rate": "0.49517684887459806",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Elise_1.jpg",
+			"korname": "엘리스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "28",
+		"fields": {
+			"chamkey": "28",
+			"chamname": "Evelynn",
+			"chamtags": "['Assassin', 'Mage']",
+			"dictionary": "[51, 80, 76, 30]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.4865424430641822",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Evelynn_1.jpg",
+			"korname": "이블린"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "81",
+		"fields": {
+			"chamkey": "81",
+			"chamname": "Ezreal",
+			"chamtags": "['Marksman', 'Mage']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.5224014336917563",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Ezreal_1.jpg",
+			"korname": "이즈리얼"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "9",
+		"fields": {
+			"chamkey": "9",
+			"chamname": "Fiddlesticks",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[76, 51, 80, 777]",
+			"lane": "['jungle']",
+			"mbti": "INFJ",
+			"winning_rate": "0.5314285714285715",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Fiddlesticks_1.jpg",
+			"korname": "피들스틱"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "114",
+		"fields": {
+			"chamkey": "114",
+			"chamname": "Fiora",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['top']",
+			"mbti": "ISFP",
+			"winning_rate": "0.47570621468926555",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Fiora_1.jpg",
+			"korname": "피오라"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "105",
+		"fields": {
+			"chamkey": "105",
+			"chamname": "Fizz",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[51, 76, 80, 777]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5115511551155115",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Fizz_1.jpg",
+			"korname": "피즈"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "3",
+		"fields": {
+			"chamkey": "3",
+			"chamname": "Galio",
+			"chamtags": "['Tank', 'Mage']",
+			"dictionary": "[51, 76, 777, 80]",
+			"lane": "['mid', 'support']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.46957878315132606",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Galio_1.jpg",
+			"korname": "갈리오"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "41",
+		"fields": {
+			"chamkey": "41",
+			"chamname": "Gangplank",
+			"chamtags": "['Fighter']",
+			"dictionary": "[51, 76, 80, 104]",
+			"lane": "['top']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.5379939209726444",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Gangplank_1.jpg",
+			"korname": "갱플랭크"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "86",
+		"fields": {
+			"chamkey": "86",
+			"chamname": "Garen",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[777, 51, 76, 876]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.5012658227848101",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Garen_1.jpg",
+			"korname": "가렌"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "150",
+		"fields": {
+			"chamkey": "150",
+			"chamname": "Gnar",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[432, 876, 7, 517]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.2727272727272727",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Gnar_1.jpg",
+			"korname": "나르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "79",
+		"fields": {
+			"chamkey": "79",
+			"chamname": "Gragas",
+			"chamtags": "['Fighter', 'Mage']",
+			"dictionary": "[51, 76, 58, 876]",
+			"lane": "['jungle', 'mid']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.6666666666666666",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Gragas_1.jpg",
+			"korname": "그라가스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "104",
+		"fields": {
+			"chamkey": "104",
+			"chamname": "Graves",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.47487370380218025",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Graves_1.jpg",
+			"korname": "그레이브즈"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "120",
+		"fields": {
+			"chamkey": "120",
+			"chamname": "Hecarim",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[51, 76, 876, 30]",
+			"lane": "['jungle', 'top']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.515451174289246",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Hecarim_1.jpg",
+			"korname": "헤카림"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "74",
+		"fields": {
+			"chamkey": "74",
+			"chamname": "Heimerdinger",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[76, 777, 51, 876]",
+			"lane": "['top']",
+			"mbti": "ISTP",
+			"winning_rate": "0.55",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/Heimerdinger_1.jpg",
+			"korname": "하이머딩거"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "420",
+		"fields": {
+			"chamkey": "420",
+			"chamname": "Illaoi",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[54, 157, 238, 25]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.6571428571428571",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Illaoi_1.jpg",
+			"korname": "일라오이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "39",
+		"fields": {
+			"chamkey": "39",
+			"chamname": "Irelia",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 80, 76, 876]",
+			"lane": "['top',  'mid']",
+			"mbti": "ISFP",
+			"winning_rate": "0.46998867497168745",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Irelia_1.jpg",
+			"korname": "이렐리아"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "427",
+		"fields": {
+			"chamkey": "427",
+			"chamname": "Ivern",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[51, 76, 80, 236]",
+			"lane": "['jungle']",
+			"mbti": "ESFP",
+			"winning_rate": "0.44545454545454544",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Ivern_1.jpg",
+			"korname": "아이번"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "40",
+		"fields": {
+			"chamkey": "40",
+			"chamname": "Janna",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[51, 25, 30, 76]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.5614035087719298",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Janna_1.jpg",
+			"korname": "잔나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "59",
+		"fields": {
+			"chamkey": "59",
+			"chamname": "JarvanIV",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[76, 876, 104, 80]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.3",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/JarvanIV_1.jpg",
+			"korname": "자르반 4세"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "24",
+		"fields": {
+			"chamkey": "24",
+			"chamname": "Jax",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 30, 76, 80]",
+			"lane": "['top', 'jungle']",
+			"mbti": "ISFP",
+			"winning_rate": "0.4933884297520661",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Jax_1.jpg",
+			"korname": "잭스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "126",
+		"fields": {
+			"chamkey": "126",
+			"chamname": "Jayce",
+			"chamtags": "['Fighter', 'Marksman']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['top', 'mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5014814814814815",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Jayce_1.jpg",
+			"korname": "제이스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "202",
+		"fields": {
+			"chamkey": "202",
+			"chamname": "Jhin",
+			"chamtags": "['Marksman', 'Mage']",
+			"dictionary": "[51, 76, 30, 22]",
+			"lane": "['ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.5254237288135594",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Jhin_1.jpg",
+			"korname": "진"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "222",
+		"fields": {
+			"chamkey": "222",
+			"chamname": "Jinx",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 777, 80, 76]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.45161290322580644",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Jinx_1.jpg",
+			"korname": "징크스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "145",
+		"fields": {
+			"chamkey": "145",
+			"chamname": "Kaisa",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 58, 246, 876]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.43478260869565216",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Kaisa_1.jpg",
+			"korname": "카이사"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "429",
+		"fields": {
+			"chamkey": "429",
+			"chamname": "Kalista",
+			"chamtags": "['Marksman']",
+			"dictionary": "[76, 51, 80, 58]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.5083114610673666",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Kalista_1.jpg",
+			"korname": "칼리스타"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "43",
+		"fields": {
+			"chamkey": "43",
+			"chamname": "Karma",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['support']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.5052461662631155",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Karma_1.jpg",
+			"korname": "카르마"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "30",
+		"fields": {
+			"chamkey": "30",
+			"chamname": "Karthus",
+			"chamtags": "['Mage']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['jungle']",
+			"mbti": "ISTP",
+			"winning_rate": "0.48825503355704697",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/Karthus_1.jpg",
+			"korname": "카서스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "38",
+		"fields": {
+			"chamkey": "38",
+			"chamname": "Kassadin",
+			"chamtags": "['Assassin', 'Mage']",
+			"dictionary": "[51, 76, 876, 80]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5015673981191222",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Kassadin_1.jpg",
+			"korname": "카사딘"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "55",
+		"fields": {
+			"chamkey": "55",
+			"chamname": "Katarina",
+			"chamtags": "['Assassin', 'Mage']",
+			"dictionary": "[51, 80, 30, 76]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.4775828460038986",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Katarina_1.jpg",
+			"korname": "카타리나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "10",
+		"fields": {
+			"chamkey": "10",
+			"chamname": "Kayle",
+			"chamtags": "['Fighter', 'Support']",
+			"dictionary": "[777, 60, 157, 39]",
+			"lane": "['top', 'mid']",
+			"mbti": "ENTP",
+			"winning_rate": "0.5789473684210527",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Kayle_1.jpg",
+			"korname": "케일"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "141",
+		"fields": {
+			"chamkey": "141",
+			"chamname": "Kayn",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 76, 80, 236]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.5588235294117647",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Kayn_1.jpg",
+			"korname": "케인"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "85",
+		"fields": {
+			"chamkey": "85",
+			"chamname": "Kennen",
+			"chamtags": "['Mage', 'Marksman']",
+			"dictionary": "[76, 51, 80, 876]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.5345911949685535",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Kennen_1.jpg",
+			"korname": "케넨"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "121",
+		"fields": {
+			"chamkey": "121",
+			"chamname": "Khazix",
+			"chamtags": "['Assassin']",
+			"dictionary": "[58, 76, 30, 432]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.49122807017543857",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Khazix_1.jpg",
+			"korname": "카직스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "203",
+		"fields": {
+			"chamkey": "203",
+			"chamname": "Kindred",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['jungle']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.5441176470588235",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Kindred_1.jpg",
+			"korname": "킨드레드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "240",
+		"fields": {
+			"chamkey": "240",
+			"chamname": "Kled",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[51, 80, 876, 58]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.46551724137931033",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Kled_1.jpg",
+			"korname": "클레드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "96",
+		"fields": {
+			"chamkey": "96",
+			"chamname": "KogMaw",
+			"chamtags": "['Marksman', 'Mage']",
+			"dictionary": "[30, 76, 80, 876]",
+			"lane": "['ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.4666666666666667",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/KogMaw_1.jpg",
+			"korname": "코그모"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "7",
+		"fields": {
+			"chamkey": "7",
+			"chamname": "Leblanc",
+			"chamtags": "['Assassin', 'Mage']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.4888668975754577",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Leblanc_1.jpg",
+			"korname": "르블랑"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "64",
+		"fields": {
+			"chamkey": "64",
+			"chamname": "LeeSin",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 80, 30, 876]",
+			"lane": "['jungle']",
+			"mbti": "ISFP",
+			"winning_rate": "0.49763779527559054",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/LeeSin_1.jpg",
+			"korname": "리 신"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "89",
+		"fields": {
+			"chamkey": "89",
+			"chamname": "Leona",
+			"chamtags": "['Tank', 'Support']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.5886792452830188",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Leona_1.jpg",
+			"korname": "레오나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "876",
+		"fields": {
+			"chamkey": "876",
+			"chamname": "Lillia",
+			"chamtags": "['Fighter', 'Mage']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['jungle']",
+			"mbti": "INFJ",
+			"winning_rate": "0.5033662477558348",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Lillia_1.jpg",
+			"korname": "릴리아"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "127",
+		"fields": {
+			"chamkey": "127",
+			"chamname": "Lissandra",
+			"chamtags": "['Mage']",
+			"dictionary": "[51, 58, 30, 104]",
+			"lane": "['mid']",
+			"mbti": "INFJ",
+			"winning_rate": "0.5882352941176471",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Lissandra_1.jpg",
+			"korname": "리산드라"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "236",
+		"fields": {
+			"chamkey": "236",
+			"chamname": "Lucian",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['ad', 'mid', 'top']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.5002658160552897",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Lucian_1.jpg",
+			"korname": "루시안"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "117",
+		"fields": {
+			"chamkey": "117",
+			"chamname": "Lulu",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[51, 76, 80, 236]",
+			"lane": "['support', 'top']",
+			"mbti": "ESFP",
+			"winning_rate": "0.5198618307426598",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Lulu_1.jpg",
+			"korname": "룰루"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "99",
+		"fields": {
+			"chamkey": "99",
+			"chamname": "Lux",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[51, 777, 76, 80]",
+			"lane": "['support', 'mid']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.491725768321513",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Lux_1.jpg",
+			"korname": "럭스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "54",
+		"fields": {
+			"chamkey": "54",
+			"chamname": "Malphite",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[122, 157, 517, 777]",
+			"lane": "['top', 'mid', 'support']",
+			"mbti": "INFP",
+			"winning_rate": "0.4393939393939394",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Malphite_1.jpg",
+			"korname": "말파이트"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "90",
+		"fields": {
+			"chamkey": "90",
+			"chamname": "Malzahar",
+			"chamtags": "['Mage', 'Assassin']",
+			"dictionary": "[157, 777, 86, 104]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.2857142857142857",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Malzahar_1.jpg",
+			"korname": "말자하"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "57",
+		"fields": {
+			"chamkey": "57",
+			"chamname": "Maokai",
+			"chamtags": "['Tank', 'Mage']",
+			"dictionary": "[51, 876, 30, 80]",
+			"lane": "['top', 'support']",
+			"mbti": "INFP",
+			"winning_rate": "0.5070422535211268",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Maokai_1.jpg",
+			"korname": "마오카이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "11",
+		"fields": {
+			"chamkey": "11",
+			"chamname": "MasterYi",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[44, 35, 39, 51]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.46218487394957986",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/MasterYi_1.jpg",
+			"korname": "마스터 이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "21",
+		"fields": {
+			"chamkey": "21",
+			"chamname": "MissFortune",
+			"chamtags": "['Marksman']",
+			"dictionary": "[51, 876, 76, 30]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.5166666666666667",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/MissFortune_1.jpg",
+			"korname": "미스 포츈"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "62",
+		"fields": {
+			"chamkey": "62",
+			"chamname": "MonkeyKing",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[76, 51, 104, 80]",
+			"lane": "['top', 'jungle']",
+			"mbti": "INTP",
+			"winning_rate": "0.5160891089108911",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/MonkeyKing_1.jpg",
+			"korname": "오공"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "82",
+		"fields": {
+			"chamkey": "82",
+			"chamname": "Mordekaiser",
+			"chamtags": "['Fighter']",
+			"dictionary": "[777, 51, 76, 80]",
+			"lane": "['top', 'mid']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.5252525252525253",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Mordekaiser_1.jpg",
+			"korname": "모데카이저"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "25",
+		"fields": {
+			"chamkey": "25",
+			"chamname": "Morgana",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[51, 76, 30, 80]",
+			"lane": "['support']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.4978768577494692",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Morgana_1.jpg",
+			"korname": "모르가나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "267",
+		"fields": {
+			"chamkey": "267",
+			"chamname": "Nami",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[76, 51, 80, 4]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.5263157894736842",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Nami_1.jpg",
+			"korname": "나미"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "75",
+		"fields": {
+			"chamkey": "75",
+			"chamname": "Nasus",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[24, 157, 20, 30]",
+			"lane": "['top']",
+			"mbti": "INFP",
+			"winning_rate": "0.45544554455445546",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Nasus_1.jpg",
+			"korname": "나서스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "111",
+		"fields": {
+			"chamkey": "111",
+			"chamname": "Nautilus",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[80, 76, 51, 30]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.5026178010471204",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Nautilus_1.jpg",
+			"korname": "노틸러스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "518",
+		"fields": {
+			"chamkey": "518",
+			"chamname": "Neeko",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[876, 105, 99, 25]",
+			"lane": "['mid', 'support']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.4583333333333333",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Neeko_1.jpg",
+			"korname": "니코"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "76",
+		"fields": {
+			"chamkey": "76",
+			"chamname": "Nidalee",
+			"chamtags": "['Assassin', 'Mage']",
+			"dictionary": "[51, 80, 30, 777]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.5056078380817326",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Nidalee_1.jpg",
+			"korname": "니달리"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "56",
+		"fields": {
+			"chamkey": "56",
+			"chamname": "Nocturne",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[51, 246, 876, 80]",
+			"lane": "['jungle', 'mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5185185185185185",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Nocturne_1.jpg",
+			"korname": "녹턴"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "20",
+		"fields": {
+			"chamkey": "20",
+			"chamname": "Nunu",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[76, 51, 80, 104]",
+			"lane": "['jungle', 'mid']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.49958088851634536",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Nunu_1.jpg",
+			"korname": "누누"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "2",
+		"fields": {
+			"chamkey": "2",
+			"chamname": "Olaf",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[76, 30, 51, 22]",
+			"lane": "['jungle', 'top']",
+			"mbti": "INTP",
+			"winning_rate": "0.45",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Olaf_1.jpg",
+			"korname": "올라프"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "61",
+		"fields": {
+			"chamkey": "61",
+			"chamname": "Orianna",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['mid']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.49850746268656715",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Orianna_1.jpg",
+			"korname": "오리아나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "516",
+		"fields": {
+			"chamkey": "516",
+			"chamname": "Ornn",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[777, 80, 58, 30]",
+			"lane": "['top', 'mid']",
+			"mbti": "INFP",
+			"winning_rate": "0.52",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Ornn_1.jpg",
+			"korname": "오른"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "80",
+		"fields": {
+			"chamkey": "80",
+			"chamname": "Pantheon",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 76, 30, 876]",
+			"lane": "['support', 'mid']",
+			"mbti": "ISFP",
+			"winning_rate": "0.5021780798048441",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Pantheon_1.jpg",
+			"korname": "판테온"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "78",
+		"fields": {
+			"chamkey": "78",
+			"chamname": "Poppy",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[76, 51, 30, 777]",
+			"lane": "['top', 'jungle', 'support']",
+			"mbti": "INFP",
+			"winning_rate": "0.45",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Poppy_1.jpg",
+			"korname": "뽀삐"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "555",
+		"fields": {
+			"chamkey": "555",
+			"chamname": "Pyke",
+			"chamtags": "['Support', 'Assassin']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['support', 'mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Pyke_1.jpg",
+			"korname": "파이크"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "246",
+		"fields": {
+			"chamkey": "246",
+			"chamname": "Qiyana",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.493953488372093",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Qiyana_1.jpg",
+			"korname": "키아나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "133",
+		"fields": {
+			"chamkey": "133",
+			"chamname": "Quinn",
+			"chamtags": "['Marksman', 'Assassin']",
+			"dictionary": "[51, 80, 30, 876]",
+			"lane": "['top']",
+			"mbti": "ISTJ",
+			"winning_rate": "0.5026737967914439",
+			"goodmbti": "ENFP",
+			"badmbti": "ENFJ",
+			"imgsrc": "@/assets/img/tiles/Quinn_1.jpg",
+			"korname": "퀸"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "497",
+		"fields": {
+			"chamkey": "497",
+			"chamname": "Rakan",
+			"chamtags": "['Support']",
+			"dictionary": "[51, 80, 76, 876]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.4583333333333333",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Rakan_1.jpg",
+			"korname": "라칸"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "33",
+		"fields": {
+			"chamkey": "33",
+			"chamname": "Rammus",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[51, 777, 76, 80]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.43661971830985913",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Rammus_1.jpg",
+			"korname": "람머스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "421",
+		"fields": {
+			"chamkey": "421",
+			"chamname": "RekSai",
+			"chamtags": "['Fighter']",
+			"dictionary": "[51, 76, 30, 777]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.4890909090909091",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/RekSai_1.jpg",
+			"korname": "렉사이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "58",
+		"fields": {
+			"chamkey": "58",
+			"chamname": "Renekton",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['top', 'mid']",
+			"mbti": "INTP",
+			"winning_rate": "0.5092158700406123",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Renekton_1.jpg",
+			"korname": "레넥톤"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "107",
+		"fields": {
+			"chamkey": "107",
+			"chamname": "Rengar",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[51, 76, 80, 777]",
+			"lane": "['top', 'jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.53156146179402",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Rengar_1.jpg",
+			"korname": "렝가"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "92",
+		"fields": {
+			"chamkey": "92",
+			"chamname": "Riven",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[876, 51, 58, 80]",
+			"lane": "['top']",
+			"mbti": "ISFP",
+			"winning_rate": "0.5",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Riven_1.jpg",
+			"korname": "리븐"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "68",
+		"fields": {
+			"chamkey": "68",
+			"chamname": "Rumble",
+			"chamtags": "['Fighter', 'Mage']",
+			"dictionary": "[876, 122, 777, 236]",
+			"lane": "['mid', 'top']",
+			"mbti": "INFJ",
+			"winning_rate": "0.5",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Rumble_1.jpg",
+			"korname": "럼블"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "13",
+		"fields": {
+			"chamkey": "13",
+			"chamname": "Ryze",
+			"chamtags": "['Mage', 'Fighter']",
+			"dictionary": "[35, 134, 80, 20]",
+			"lane": "['mid', 'top']",
+			"mbti": "INFJ",
+			"winning_rate": "0.4166666666666667",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Ryze_1.jpg",
+			"korname": "라이즈"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "113",
+		"fields": {
+			"chamkey": "113",
+			"chamname": "Sejuani",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[51, 22, 104, 76]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.3333333333333333",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Sejuani_1.jpg",
+			"korname": "세주아니"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "235",
+		"fields": {
+			"chamkey": "235",
+			"chamname": "Senna",
+			"chamtags": "['Marksman', 'Support']",
+			"dictionary": "[76, 51, 80, 58]",
+			"lane": "['ad', 'support']",
+			"mbti": "ENTP",
+			"winning_rate": "0.47804878048780486",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Senna_1.jpg",
+			"korname": "세나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "875",
+		"fields": {
+			"chamkey": "875",
+			"chamname": "Sett",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['support', 'top', 'jungle']",
+			"mbti": "INFP",
+			"winning_rate": "0.5049104563835933",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Sett_1.jpg",
+			"korname": "세트"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "35",
+		"fields": {
+			"chamkey": "35",
+			"chamname": "Shaco",
+			"chamtags": "['Assassin']",
+			"dictionary": "[777, 517, 51, 157]",
+			"lane": "['jungle', 'support']",
+			"mbti": "ENFP",
+			"winning_rate": "0.484375",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Shaco_1.jpg",
+			"korname": "샤코"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "98",
+		"fields": {
+			"chamkey": "98",
+			"chamname": "Shen",
+			"chamtags": "['Tank']",
+			"dictionary": "[51, 80, 30, 76]",
+			"lane": "['top', 'support']",
+			"mbti": "INFP",
+			"winning_rate": "0.5045871559633027",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Shen_1.jpg",
+			"korname": "쉔"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "102",
+		"fields": {
+			"chamkey": "102",
+			"chamname": "Shyvana",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[350, 80, 35, 876]",
+			"lane": "['jugnle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.2916666666666667",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Shyvana_1.jpg",
+			"korname": "쉬바나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "27",
+		"fields": {
+			"chamkey": "27",
+			"chamname": "Singed",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[51, 30, 76, 80]",
+			"lane": "['top']",
+			"mbti": "INFP",
+			"winning_rate": "0.5659574468085107",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Singed_1.jpg",
+			"korname": "신지드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "14",
+		"fields": {
+			"chamkey": "14",
+			"chamname": "Sion",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[350, 35, 54, 777]",
+			"lane": "['top']",
+			"mbti": "INFP",
+			"winning_rate": "0.6956521739130435",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Sion_1.jpg",
+			"korname": "사이온"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "15",
+		"fields": {
+			"chamkey": "15",
+			"chamname": "Sivir",
+			"chamtags": "['Marksman']",
+			"dictionary": "[58, 74, 91, 876]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.16666666666666666",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Sivir_1.jpg",
+			"korname": "시비르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "72",
+		"fields": {
+			"chamkey": "72",
+			"chamname": "Skarner",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[104, 80, 86, 91]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.3888888888888889",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Skarner_1.jpg",
+			"korname": "스카너"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "37",
+		"fields": {
+			"chamkey": "37",
+			"chamname": "Sona",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[777, 25, 516, 86]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.36363636363636365",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Sona_1.jpg",
+			"korname": "소나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "16",
+		"fields": {
+			"chamkey": "16",
+			"chamname": "Soraka",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[238, 51, 157, 7]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.4642857142857143",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Soraka_1.jpg",
+			"korname": "소라카"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "50",
+		"fields": {
+			"chamkey": "50",
+			"chamname": "Swain",
+			"chamtags": "['Mage', 'Fighter']",
+			"dictionary": "[51, 76, 80, 104]",
+			"lane": "['support']",
+			"mbti": "INFJ",
+			"winning_rate": "0.53125",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Swain_1.jpg",
+			"korname": "스웨인"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "517",
+		"fields": {
+			"chamkey": "517",
+			"chamname": "Sylas",
+			"chamtags": "['Mage', 'Assassin']",
+			"dictionary": "[51, 76, 30, 80]",
+			"lane": "['mid', 'jungle', 'top']",
+			"mbti": "INFJ",
+			"winning_rate": "0.4842436974789916",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Sylas_1.jpg",
+			"korname": "사일러스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "134",
+		"fields": {
+			"chamkey": "134",
+			"chamname": "Syndra",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[76, 51, 876, 80]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.529126213592233",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Syndra_1.jpg",
+			"korname": "신드라"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "223",
+		"fields": {
+			"chamkey": "223",
+			"chamname": "TahmKench",
+			"chamtags": "['Support', 'Tank']",
+			"dictionary": "[876, 58, 51, 30]",
+			"lane": "['support', 'top']",
+			"mbti": "INFP",
+			"winning_rate": "0.43548387096774194",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/TahmKench_1.jpg",
+			"korname": "탐 켄치"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "163",
+		"fields": {
+			"chamkey": "163",
+			"chamname": "Taliyah",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[22, 80, 51, 30]",
+			"lane": "['jungle']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.6666666666666666",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Taliyah_1.jpg",
+			"korname": "탈리야"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "91",
+		"fields": {
+			"chamkey": "91",
+			"chamname": "Talon",
+			"chamtags": "['Assassin']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.5167597765363129",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Talon_1.jpg",
+			"korname": "탈론"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "44",
+		"fields": {
+			"chamkey": "44",
+			"chamname": "Taric",
+			"chamtags": "['Support', 'Fighter']",
+			"dictionary": "[51, 76, 80, 236]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.535",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Taric_1.jpg",
+			"korname": "타릭"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "17",
+		"fields": {
+			"chamkey": "17",
+			"chamname": "Teemo",
+			"chamtags": "['Marksman', 'Assassin']",
+			"dictionary": "[35, 7, 876, 777]",
+			"lane": "['top']",
+			"mbti": "ISTJ",
+			"winning_rate": "0.5294117647058824",
+			"goodmbti": "ENFP",
+			"badmbti": "ENFJ",
+			"imgsrc": "@/assets/img/tiles/Teemo_1.jpg",
+			"korname": "티모"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "412",
+		"fields": {
+			"chamkey": "412",
+			"chamname": "Thresh",
+			"chamtags": "['Support', 'Fighter']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['support']",
+			"mbti": "ESTP",
+			"winning_rate": "0.5295566502463054",
+			"goodmbti": "INFJ",
+			"badmbti": "INFP",
+			"imgsrc": "@/assets/img/tiles/Thresh_1.jpg",
+			"korname": "쓰레쉬"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "18",
+		"fields": {
+			"chamkey": "18",
+			"chamname": "Tristana",
+			"chamtags": "['Marksman', 'Assassin']",
+			"dictionary": "[76, 236, 58, 22]",
+			"lane": "['ad']",
+			"mbti": "ISTJ",
+			"winning_rate": "0.3",
+			"goodmbti": "ENFP",
+			"badmbti": "ENFJ",
+			"imgsrc": "@/assets/img/tiles/Tristana_1.jpg",
+			"korname": "트리스타나"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "48",
+		"fields": {
+			"chamkey": "48",
+			"chamname": "Trundle",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[350, 236, 777, 35]",
+			"lane": "['jungle']",
+			"mbti": "ENFJ",
+			"winning_rate": "0.46296296296296297",
+			"goodmbti": "ISTP",
+			"badmbti": "ISTJ",
+			"imgsrc": "@/assets/img/tiles/Trundle_1.jpg",
+			"korname": "트런들"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "23",
+		"fields": {
+			"chamkey": "23",
+			"chamname": "Tryndamere",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[76, 51, 80, 876]",
+			"lane": "['top']",
+			"mbti": "ISFP",
+			"winning_rate": "0.52734375",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Tryndamere_1.jpg",
+			"korname": "트린다미어"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "4",
+		"fields": {
+			"chamkey": "4",
+			"chamname": "TwistedFate",
+			"chamtags": "['Mage']",
+			"dictionary": "[76, 51, 80, 30]",
+			"lane": "['mid']",
+			"mbti": "ISTP",
+			"winning_rate": "0.5163283318623124",
+			"goodmbti": "ENFJ",
+			"badmbti": "ENFP",
+			"imgsrc": "@/assets/img/tiles/TwistedFate_1.jpg",
+			"korname": "트위스티드 페이트"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "29",
+		"fields": {
+			"chamkey": "29",
+			"chamname": "Twitch",
+			"chamtags": "['Marksman', 'Assassin']",
+			"dictionary": "[51, 80, 236, 876]",
+			"lane": "['ad']",
+			"mbti": "ISTJ",
+			"winning_rate": "0.4781420765027322",
+			"goodmbti": "ENFP",
+			"badmbti": "ENFJ",
+			"imgsrc": "@/assets/img/tiles/Twitch_1.jpg",
+			"korname": "트위치"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "77",
+		"fields": {
+			"chamkey": "77",
+			"chamname": "Udyr",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[876, 84, 104, 350]",
+			"lane": "['jungle']",
+			"mbti": "ENFP",
+			"winning_rate": "0.5",
+			"goodmbti": "ISTJ",
+			"badmbti": "ISTP",
+			"imgsrc": "@/assets/img/tiles/Udyr_1.jpg",
+			"korname": "우디르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "6",
+		"fields": {
+			"chamkey": "6",
+			"chamname": "Urgot",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[876, 58, 236, 51]",
+			"lane": "['top']",
+			"mbti": "INFP",
+			"winning_rate": "0.4117647058823529",
+			"goodmbti": "ESTJ",
+			"badmbti": "ESTP",
+			"imgsrc": "@/assets/img/tiles/Urgot_1.jpg",
+			"korname": "우르곳"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "110",
+		"fields": {
+			"chamkey": "110",
+			"chamname": "Varus",
+			"chamtags": "['Marksman', 'Mage']",
+			"dictionary": "[76, 81, 62, 875]",
+			"lane": "['ad']",
+			"mbti": "ENTP",
+			"winning_rate": "0.5134328358208955",
+			"goodmbti": "ISFJ",
+			"badmbti": "ISFP",
+			"imgsrc": "@/assets/img/tiles/Varus_1.jpg",
+			"korname": "바루스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "67",
+		"fields": {
+			"chamkey": "67",
+			"chamname": "Vayne",
+			"chamtags": "['Marksman', 'Assassin']",
+			"dictionary": "[777, 76, 517, 122]",
+			"lane": "['ad']",
+			"mbti": "ISTJ",
+			"winning_rate": "0.53125",
+			"goodmbti": "ENFP",
+			"badmbti": "ENFJ",
+			"imgsrc": "@/assets/img/tiles/Vayne_1.jpg",
+			"korname": "베인"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "45",
+		"fields": {
+			"chamkey": "45",
+			"chamname": "Veigar",
+			"chamtags": "['Mage']",
+			"dictionary": "[517, 875, 25, 157]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.49019607843137253",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Veigar_1.jpg",
+			"korname": "베이가"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "161",
+		"fields": {
+			"chamkey": "161",
+			"chamname": "Velkoz",
+			"chamtags": "['Mage']",
+			"dictionary": "[25, 104, 111, 24]",
+			"lane": "['support', 'mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.5384615384615384",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Velkoz_1.jpg",
+			"korname": "벨코즈"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "254",
+		"fields": {
+			"chamkey": "254",
+			"chamname": "Vi",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 236, 30, 58]",
+			"lane": "['jungle']",
+			"mbti": "ISFP",
+			"winning_rate": "0.325",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Vi_1.jpg",
+			"korname": "바이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "112",
+		"fields": {
+			"chamkey": "112",
+			"chamname": "Viktor",
+			"chamtags": "['Mage']",
+			"dictionary": "[111, 126, 51, 117]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.5",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Viktor_1.jpg",
+			"korname": "빅토르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "8",
+		"fields": {
+			"chamkey": "8",
+			"chamname": "Vladimir",
+			"chamtags": "['Mage']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['top' ,'mid']",
+			"mbti": "INFJ",
+			"winning_rate": "0.48214285714285715",
+			"goodmbti": "ESTP",
+			"badmbti": "ESTJ",
+			"imgsrc": "@/assets/img/tiles/Vladimir_1.jpg",
+			"korname": "블라디미르"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "106",
+		"fields": {
+			"chamkey": "106",
+			"chamname": "Volibear",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[76, 30, 51, 4]",
+			"lane": "['jungle', 'top']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.5141176470588236",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Volibear_1.jpg",
+			"korname": "볼리베어"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "19",
+		"fields": {
+			"chamkey": "19",
+			"chamname": "Warwick",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[777, 238, 22, 246]",
+			"lane": "['jungle', 'top']",
+			"mbti": "INTP",
+			"winning_rate": "0.4166666666666667",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Warwick_1.jpg",
+			"korname": "워윅"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "498",
+		"fields": {
+			"chamkey": "498",
+			"chamname": "Xayah",
+			"chamtags": "['Marksman']",
+			"dictionary": "[876, 62, 57, 25]",
+			"lane": "['ad']",
+			"mbti": "ESTJ",
+			"winning_rate": "0.6666666666666666",
+			"goodmbti": "INFP",
+			"badmbti": "INFJ",
+			"imgsrc": "@/assets/img/tiles/Xayah_1.jpg",
+			"korname": "자야"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "101",
+		"fields": {
+			"chamkey": "101",
+			"chamname": "Xerath",
+			"chamtags": "['Mage']",
+			"dictionary": "[51, 30, 76, 4]",
+			"lane": "['support', 'mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.47368421052631576",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Xerath_1.jpg",
+			"korname": "제라스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "5",
+		"fields": {
+			"chamkey": "5",
+			"chamname": "XinZhao",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[31, 80, 76, 517]",
+			"lane": "['jungle']",
+			"mbti": "ISFP",
+			"winning_rate": "0.25",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/XinZhao_1.jpg",
+			"korname": "신 짜오"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "157",
+		"fields": {
+			"chamkey": "157",
+			"chamname": "Yasuo",
+			"chamtags": "['Fighter', 'Assassin']",
+			"dictionary": "[51, 777, 76, 80]",
+			"lane": "['mid', 'ad', 'top']",
+			"mbti": "ISFP",
+			"winning_rate": "0.4533508541392904",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Yasuo_1.jpg",
+			"korname": "야스오"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "777",
+		"fields": {
+			"chamkey": "777",
+			"chamname": "Yone",
+			"chamtags": "['Assassin', 'Fighter']",
+			"dictionary": "[51, 76, 80, 876]",
+			"lane": "['mid', 'top']",
+			"mbti": "ISFP",
+			"winning_rate": "0.49815583218072845",
+			"goodmbti": "ENTJ",
+			"badmbti": "ENTP",
+			"imgsrc": "@/assets/img/tiles/Yone_1.jpg",
+			"korname": "요네"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "83",
+		"fields": {
+			"chamkey": "83",
+			"chamname": "Yorick",
+			"chamtags": "['Fighter', 'Tank']",
+			"dictionary": "[777, 876, 48, 77]",
+			"lane": "['top']",
+			"mbti": "INTP",
+			"winning_rate": "0.2727272727272727",
+			"goodmbti": "ESFJ",
+			"badmbti": "ESFP",
+			"imgsrc": "@/assets/img/tiles/Yorick_1.jpg",
+			"korname": "요릭"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "350",
+		"fields": {
+			"chamkey": "350",
+			"chamname": "Yuumi",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[76, 777, 51, 81]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.5064655172413793",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Yuumi_1.jpg",
+			"korname": "유미"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "154",
+		"fields": {
+			"chamkey": "154",
+			"chamname": "Zac",
+			"chamtags": "['Tank', 'Fighter']",
+			"dictionary": "[76, 51, 777, 142]",
+			"lane": "['jungle', 'top', 'support']",
+			"mbti": "ENTJ",
+			"winning_rate": "0.5047619047619047",
+			"goodmbti": "ISFP",
+			"badmbti": "ISFJ",
+			"imgsrc": "@/assets/img/tiles/Zac_1.jpg",
+			"korname": "자크"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "238",
+		"fields": {
+			"chamkey": "238",
+			"chamname": "Zed",
+			"chamtags": "['Assassin']",
+			"dictionary": "[51, 76, 777, 30]",
+			"lane": "['mid']",
+			"mbti": "INTJ",
+			"winning_rate": "0.4828042328042328",
+			"goodmbti": "ESFP",
+			"badmbti": "ESFJ",
+			"imgsrc": "@/assets/img/tiles/Zed_1.jpg",
+			"korname": "제드"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "115",
+		"fields": {
+			"chamkey": "115",
+			"chamname": "Ziggs",
+			"chamtags": "['Mage']",
+			"dictionary": "[876, 429, 114, 80]",
+			"lane": "['ad', 'mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.48",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Ziggs_1.jpg",
+			"korname": "직스"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "26",
+		"fields": {
+			"chamkey": "26",
+			"chamname": "Zilean",
+			"chamtags": "['Support', 'Mage']",
+			"dictionary": "[51, 777, 76, 53]",
+			"lane": "['support']",
+			"mbti": "ESFP",
+			"winning_rate": "0.5454545454545454",
+			"goodmbti": "INTJ",
+			"badmbti": "INTP",
+			"imgsrc": "@/assets/img/tiles/Zilean_1.jpg",
+			"korname": "질리언"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "142",
+		"fields": {
+			"chamkey": "142",
+			"chamname": "Zoe",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[51, 76, 80, 30]",
+			"lane": "['mid']",
+			"mbti": "ISFJ",
+			"winning_rate": "0.4981738495252009",
+			"goodmbti": "ENTP",
+			"badmbti": "ENTJ",
+			"imgsrc": "@/assets/img/tiles/Zoe_1.jpg",
+			"korname": "조이"
+		}
+	},
+	{
+		"model": "demacia.champion",
+		"pk": "143",
+		"fields": {
+			"chamkey": "143",
+			"chamname": "Zyra",
+			"chamtags": "['Mage', 'Support']",
+			"dictionary": "[236, 81, 80, 246]",
+			"lane": "['support']",
+			"mbti": "ESFJ",
+			"winning_rate": "0.5",
+			"goodmbti": "INTP",
+			"badmbti": "INTJ",
+			"imgsrc": "@/assets/img/tiles/Zyra_1.jpg",
+			"korname": "자이라"
+		}
+	}
+]

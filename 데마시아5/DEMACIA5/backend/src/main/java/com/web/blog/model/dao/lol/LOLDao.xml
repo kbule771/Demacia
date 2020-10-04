@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.lol.LOLDao">
+
+    <!-- sol 랭크 업데이트 -->
+    <update id="updateAccountId">
+        update user 
+        set accountId=#{accountId}
+        where userNo = #{userNo}
+    </update>
+
+    <!-- sol 랭크 업데이트 -->
+    <update id="solUpdateRank">
+        update user 
+        set userSolRankNum=#{userSolRankNum},
+        userSolTierStr = #{userSolTierStr}, userSolRankStr= #{userSolRankStr}
+        where userNo = #{userNo}
+    </update>
+
+    <!-- 게임 링크 업데이트 -->
+    <update id="lolUpdateRank">
+        update user 
+        set summonerName=#{summonerName},
+        userGameRankNum = #{userGameRankNum}, 
+        userGameTierStr = #{userGameTierStr}, userGameRankStr= #{userGameRankStr}
+        where userNo = #{userNo}
+    </update>
+
+    <!-- 게임 링크 삭제 -->
+    <update id="deleteGameRank">
+        UPDATE user 
+        SET summonerName = NULL , userGameRankStr = NULL, userGameTierStr = NULL, userGameRankNum = 0, accountId = NULL
+        WHERE userNo = #{userNo}
+    </update>
+</mapper>

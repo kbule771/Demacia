@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.web.blog.model.dao.post.PostDao">
+
+    <!-- 게시물 등록 -->
+    <insert id ="postInsert">
+        insert into post(userNo,view,title, content, video,thumbnail, option1, option2, deadline, mileage)
+        values (#{userNo},#{view},#{title},#{content},#{video},#{thumbnail},#{option1},#{option2},#{deadLine}, #{mileage})
+    </insert>
+
+    <!-- 검색 -->
+
+    <!-- 게시물 제목으로 검색-->
+    <select id="postSearchByTitle" resultType="PostDetail">
+       SELECT postno, post.userno, postdate, view, title, content, thumbnail, usernickname, userimage, option1, option2, deadline, mileage, isFinished
+        FROM post 
+        JOIN user
+        ON user.userno = post.userno
+        WHERE title LIKE concat('%',#{title},'%')
+        AND ${tabOption}
+        ORDER BY ${orderby} desc
+        LIMIT #{limit}
+        OFFSET #{offset}
+    </select>
+
+    <!-- 게시물 유저닉네임으로 검색-->
+    <select id="postSearchByUser" resultType="PostDetail">
+        SELECT postno, post.userno, postdate, view, title, content, thumbnail, usernickname, userimage, option1, option2, deadline, mileage, isFinished
+        FROM post 
+        JOIN user
+        ON user.userno = post.userno
+        WHERE user.usernickname LIKE concat('%',#{userNickname},'%')
+        AND ${tabOption}
+        ORDER BY ${orderby} desc
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <!-- 게시물 투표옵션으로 검색-->
+    <select id="postSearchByOption" resultType="PostDetail">
+        SELECT postno, post.userno, postdate, view, title, content, thumbnail, usernickname, userimage, option1, option2, deadline, mileage, isFinished
+        FROM post 
+        JOIN user
+        ON user.userno = post.userno
+        WHERE option1 LIKE concat('%',#{option},'%')
+        OR option2 LIKE concat('%',#{option},'%')
+        AND ${tabOption}
+        ORDER BY ${orderby} desc
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <!-- 게시물 리스트 조회-->
+    <select id = "postSearch" resultType="PostDetail">
+        SELECT postno, post.userno, postdate, view, title, content, thumbnail, usernickname, userimage, option1, option2, deadline, mileage, isFinished
+        FROM post 
+        JOIN user
+        ON user.userno = post.userno AND ${tabOption}
+        ORDER BY ${orderby} desc
+        LIMIT #{limit} OFFSET #{offset}
+    </select>
+
+    <!-- 게시물 상세 조회-->
+    <select id="postDetail" resultType="PostDetail">
+        SELECT *
+        FROM post 
+        JOIN user
+        ON user.userno = post.userno
+        WHERE postNo = #{postNo}
+    </select>
+
+    <!-- 게시물 삭제 -->
+    <delete id="postDelete">
+        delete from post 
+        where postNo = #{postNo}
+    </delete>
+
+    <!-- 게시물 수정-->
+    <update id="postUpdate">
+        update post 
+        set title=#{title}, content=#{content}
+        where postNo = #{postNo}
+    </update>
+
+    <!-- 방문자 증가 -->
+    <update id="postVisitCount">
+        update post
+        set view = #{view}+1
+        where postNo=#{postNo}
+    </update>
+
+</mapper>

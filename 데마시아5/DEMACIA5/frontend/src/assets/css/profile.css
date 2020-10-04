@@ -1,0 +1,56 @@
+.solomon {
+  width: 450px;
+  height: 50px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: white;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.solomonul {
+  padding: 0 0 0 0;
+}
+
+.title {
+  width: 35%;
+  text-align: left;
+  display: inline-block;
+}
+
+.result {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.point1 {
+  width: 20%;
+  display: inline-block;
+  color: yellow;
+}
+
+.point2 {
+  width: 20%;
+  display: inline-block;
+  color: white;
+}
+
+.point3 {
+  width: 20%;
+  display: inline-block;
+  color: red;
+}
+
+.icon {
+  margin-left: 3%;
+  display: inline-block;
+  margin-top: 2%;
+}
+
+.mil {
+  display: inline-block;
+}
