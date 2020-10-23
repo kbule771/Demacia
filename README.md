@@ -1,4 +1,3 @@
-
 Ver3로 프로젝트 진행중
 아래는 Ver2 디자인과 구조
 ![1](https://user-images.githubusercontent.com/60081286/92345351-038da880-f104-11ea-8923-309c48748a29.png)
