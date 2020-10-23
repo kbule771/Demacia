@@ -26,7 +26,6 @@ Ver3로 프로젝트 진행중
 ![33](https://user-images.githubusercontent.com/60081286/95017256-45722600-0693-11eb-948f-795683ebc737.png)
 ![44](https://user-images.githubusercontent.com/60081286/95017257-460abc80-0693-11eb-9953-a36cbb2f6c61.png)
 ![55](https://user-images.githubusercontent.com/60081286/95017258-46a35300-0693-11eb-8f2e-185d78a24b1e.png)
-
 # 영상을 통한 승패 예측
 ### 1. 영상에서 특정 프레임 추출
 
