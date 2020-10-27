@@ -34,7 +34,6 @@ Ver3로 프로젝트 진행중
 마지막에서 50프레임 전일때, frame1.jpg
 
 두개 생성
-
 ```python
 # -*- coding: utf-8 -*-
 __author__ = 'Seran'
