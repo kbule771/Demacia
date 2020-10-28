@@ -17,7 +17,6 @@ Ver3로 프로젝트 진행중
 ![4](https://user-images.githubusercontent.com/60081286/95017249-43a86280-0693-11eb-836f-efcac60f39f4.PNG)
 ![5](https://user-images.githubusercontent.com/60081286/95017250-43a86280-0693-11eb-97a4-2b610aeae03b.PNG)
 ![6](https://user-images.githubusercontent.com/60081286/95017251-4440f900-0693-11eb-93dc-5fd712fd74f3.PNG)
-
 # 디자인 개선
 ![11](https://user-images.githubusercontent.com/60081286/95017252-44d98f80-0693-11eb-8667-f6e132a1b568.png)
 ![22](https://user-images.githubusercontent.com/60081286/95017255-45722600-0693-11eb-8626-01f3c5d8bdb3.png)
