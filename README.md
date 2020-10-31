@@ -11,6 +11,7 @@ Ver3로 프로젝트 진행중
 ![9](https://user-images.githubusercontent.com/60081286/92345375-0d171080-f104-11ea-9050-a4fcacc021bb.png)
 ![backend 구조](https://user-images.githubusercontent.com/60081286/92345376-0dafa700-f104-11ea-883c-863ac2156185.PNG)
 # ERD 구조
+
 ![1](https://user-images.githubusercontent.com/60081286/95017243-41de9f00-0693-11eb-8025-a0eec139fa94.PNG)
 ![2](https://user-images.githubusercontent.com/60081286/95017245-430fcc00-0693-11eb-8e51-2f7f2197889e.PNG)
 ![3](https://user-images.githubusercontent.com/60081286/95017248-430fcc00-0693-11eb-8470-bfff4f333acf.PNG)
